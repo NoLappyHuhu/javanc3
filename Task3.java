@@ -12,10 +12,5 @@ public class Task3 {
 
          if (b1 && b2 && b3)
              System.out.println("Success!");
-
-         System.out.println(b1+""+a+b);
-         System.out.println(b2+""+c);
-         System.out.println(b3+""+d);
-
      }
  }
