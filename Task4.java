@@ -6,12 +6,20 @@ public class Task4{
 		StringBuilder sb = new StringBuilder();
 
 		System.out.print("Enter word: ");
+		//Get the input then remove space and case sensitive
 		sb.append(user.nextLine().toLowerCase().replaceAll("\\s",""));
 
-		// String reverseWord = sb.reverse().toString();
+		/*
+		Task:		
+		Use StringBuilder to create a new string that
+		is a reverse of the input string.(sb.reverse())
+
+		Use the equals() method to check if the input
+		string and the reversed string are the same.
+		*/
 		if(sb.toString().equals(sb.reverse().toString()))
-			System.out.println("Palindrome");
+			System.out.println("The input string is a palindrome.");
 		else
-			System.out.println("Not a palindrome");
+			System.out.println("The input string is not a palindrome.");
 	}
 }
