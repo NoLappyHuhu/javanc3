@@ -8,13 +8,17 @@ public class Task6{
 	            399, 162, 758, 219, 918, 237, 412, 566, 826, 248, 866, 950, 626, 949, 687, 217,
 	            815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
 	            958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470, 743, 527};
-	
-	for(int number:numbers)
-		if(number == 237)
-			break;
-		else if(number % 2 == 0)
-			System.out.println(number);
 
+	int[] arrays = {544, 941, 345, 237};
+	for(int o = 0,i = 0; o < 4; o++){
+		for(;true;i++){
+			if(arrays[o] != numbers[i])
+				System.out.printf((numbers[i] % 2 == 0)?"%d,":"",numbers[i]);
+			else
+				break;
+		}
+		System.out.println();
+	}
 
 	}
 }
