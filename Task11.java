@@ -4,9 +4,9 @@ public class Task11 {
         Book book2 = new Book("Python Basics", "Jane Doe", 2020, 29.99);
         Book book3 = new Book("C++ Essentials", "Michael Johnson", 2019, 49.99);
 
-        System.out.println(book1.toString());
-        System.out.println(book2.toString());
-        System.out.println(book3.toString());
+        System.out.println("Book1:\n"+book1.toString());
+        System.out.println("Book2:\n"+book2.toString());
+        System.out.println("Book3:\n"+book3.toString());
     }
 }
 
