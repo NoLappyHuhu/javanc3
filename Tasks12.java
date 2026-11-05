@@ -13,6 +13,10 @@ class Point {
     }
    
     // Your code goes here
+    public void scale(){
+        this.x /= 2;
+        this.y /= 2;
+    }
 }
 
 public class Tasks12 {
